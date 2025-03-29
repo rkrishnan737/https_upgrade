@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "HTTPS Upgrade Extension",
+  "version": "1.0",
+  "description": "Replace instances of 'http' on any given page with 'https.'",
+
+  "content_scripts": [
+    {
+      "js": ["scripts/content.js"]
+    }
+  ]
+}
